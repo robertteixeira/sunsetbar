@@ -1,0 +1,49 @@
+body {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  align-items: first baseline;
+  justify-content: center;
+  background-color: transparent;
+  color: black;
+}
+
+.listActive {
+  background-color: rgb(224, 255, 215);
+  height: 100%;
+  width: 100%;
+}
+
+.buttonAdd {
+  display: flex;
+  cursor: pointer;
+  padding: 1em 0em 1em 0em;
+}
+
+.divCart {
+  position: relative;
+  width: 25px;
+}
+
+.divDescription {
+  position: relative;
+  width: 140px;
+  margin-left: 1em;
+}
+
+.divPrice {
+  position: relative;
+  width: 40px;
+  margin-left: 1em;
+}
+
+.divTotal {
+  position: relative;
+  width: 60px;
+  margin-left: 2em;
+}

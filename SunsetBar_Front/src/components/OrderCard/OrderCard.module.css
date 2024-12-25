@@ -1,0 +1,33 @@
+.orderCard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgb(224, 255, 215);
+  margin: 0.3em 0.3em 0.3em 0.3em;
+  padding: 0.5em 0.5em 0.5em 0.5em;
+  border: 1px solid;
+  width: 80%;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+}
+
+.orderCardDisabled {
+  background-color: rgba(71, 71, 71, 0.274);
+  cursor: not-allowed;
+  opacity: 0.2;
+}
+
+.orderCard:hover {
+  opacity: 0.7;
+}
+
+.orderCard h3 {
+  margin: 10px;
+  color: #333;
+}
+
+.orderCard p {
+  margin: 10px;
+  font-size: 1em;
+  color: #242323;
+}

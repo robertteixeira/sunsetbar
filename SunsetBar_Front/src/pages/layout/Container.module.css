@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  left: 1.5%; 
+  top: 16%;
+  right: 2%;
+  bottom: 11%;
+}
